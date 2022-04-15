@@ -12,6 +12,7 @@ const sumZero = (arr) => {
 
 
 console.log(sumZero([1, 2, 3]))
+//time complexity is O(n^2)
 //space complexity is O(n^2)
 
 ///////////////////////////////////////////////////////
@@ -30,6 +31,7 @@ const hasUniqueChars = (string) => {
 }
 
 console.log(hasUniqueChars('Moonday'))
+//time complexity is O(n^2)
 //space complexity is O(n^2)
 
 /////////////////////////////////////////////////////
@@ -53,7 +55,9 @@ function isPangram(string){
     }
     return pangram
 }
+
 console.log(isPangram('The quick brown fox jumps over the lay dog!'))
+//time complexity is O(n)
 // space complexity is O(n)
 
 ////////////////////////////////////////////////////////////////////////////
@@ -70,4 +74,5 @@ function findLongestWord(arr){
 }
 
 console.log(findLongestWord(["hi", "hello", 'testarooni']))
+//time complexity is O(n)
 //space complexity is O(n)
